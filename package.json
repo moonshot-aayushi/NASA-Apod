@@ -2,7 +2,7 @@
   "name": "nasa-apod",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://moonshot-aayushi.github.io/Astronomy-Picture}",
+  "homepage": "http://moonshot-aayushi.github.io/Astronomy-Picture",
   "dependencies": {
     "-": "0.0.1",
     "@testing-library/jest-dom": "^4.2.4",
@@ -19,8 +19,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d master build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
